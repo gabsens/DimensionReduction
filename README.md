@@ -14,7 +14,7 @@ willing to wait long enough...)
 ## NMF
 
 I didn't have time to implement NMF by myself and just used what is available in `sklearn.decomposition`. I
-reproduced the results of Lee & Seung in their foundational 1999 paper regarding Grolier encyclopedia articles. 
+reproduced the results of Lee & Seung regarding Grolier encyclopedia articles in their foundational 1999 paper. 
 
 ## Files description
 * `report.pdf` contains theoretical explanations behind the algorithms as well as practical results
