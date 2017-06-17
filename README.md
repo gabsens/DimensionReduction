@@ -16,6 +16,13 @@ willing to wait long enough...)
 I didn't have time to implement NMF by myself and just used what is available in `sklearn.decomposition`. I
 reproduced the results of Lee & Seung in their foundational 1999 paper regarding Grolier encyclopedia articles. 
 
+## Files description
+* `calcmat.py` contains matrix calculus-related functions
+* `power.py` contains a naive approach to PCA with power iteration
+* `QR.py` contains my actual PCA implementation 
+* `image.py` applies PCA to compression of Lena's face
+* `NMF.py` applies NMF to words in encyclopedia articles
+
 ## Disclaimer
 
 The code and the report are written in French, but an English translation should follow shortly.
