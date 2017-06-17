@@ -6,7 +6,7 @@ The topic was dimensionality reduction through PCA (Principal Component Analysis
 ## PCA
 
 I chose to implement PCA from the ground up without resorting to any existing scientific libraries 
-(that is to say no Numpy, Scipy, etc...). The resulting code boils down to Householder reduction and QR iteration 
+(that is to say no Numpy, Scipy, etc...). The actual goal is to find the eigenvectors associated with the greatest eigenvalues of a positive semi-definite matrix. The resulting code boils down to Householder reduction and QR iteration 
 (which is obtained through Givens rotations). The implementation is 100% Vanilla Python, hence much slower than the actual
 Fortran routine upon which Scipy is based. It is still robust and will yield good results in large dimensions (provided you're 
 willing to wait long enough...)
