@@ -17,6 +17,8 @@ I didn't have time to implement NMF by myself and just used what is available in
 reproduced the results of Lee & Seung in their foundational 1999 paper regarding Grolier encyclopedia articles. 
 
 ## Files description
+* `report.pdf` contains theoretical explanations behind the algorithms as well as practical results
+* `slides.pdf` contains the oral presentation (final grade: 15/20)
 * `calcmat.py` contains matrix calculus-related functions
 * `power.py` contains a naive approach to PCA with power iteration
 * `QR.py` contains my actual PCA implementation 
